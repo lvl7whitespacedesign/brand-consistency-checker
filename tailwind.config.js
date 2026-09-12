@@ -8,11 +8,14 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          bg: "#0B0F14",      // LVL7 near-black base -- replace with your exact hex
-          primary: "#00E5C7", // LVL7 signature accent (electric teal) -- replace with your exact hex
-          accent: "#7C5CFF",  // secondary accent (violet) -- replace with your exact hex
+          bg: "#0A0A0A",
+          primary: "#00E5C7",
+          accent: "#7C5CFF",
           light: "#F5F7FA",
-          danger: "#FF4D5E"
+          danger: "#FF4D5E",
+          gold: "#caa327",
+          purple: "#9966cc",
+          green: "#9acd66"
         }
       },
       fontFamily: {

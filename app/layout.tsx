@@ -70,6 +70,22 @@ export default function RootLayout({
             />
           </noscript>
         )}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          id="cosmic-bg-video"
+          aria-hidden="true"
+        >
+          <source
+  src="/LVL7_lightcode_multidimensional_background_compressed.webm"
+  type="video/webm"
+/>
+<source src="/lvl7-cosmic-background.mp4" type="video/mp4" />
+        </video>
+        <div id="cosmic-bg-overlay" aria-hidden="true" />
         {children}
       </body>
     </html>

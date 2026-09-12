@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(135deg, #caa327, #9966cc, #9acd66) !important;
+  background-attachment: fixed !important;
+}
+
+.logo img {
+  height: 70px !important;
+  width: auto !important;
+}
+
+body,
+p,
+h1, h2, h3, h4, h5, h6,
+li,
+span,
+a,
+.logo,
+.post-content,
+.menu,
+.footer {
+  color: #9966cc !important;
+  text-shadow:
+    -1px -1px 0 #9acd66,
+     1px -1px 0 #9acd66,
+    -1px  1px 0 #9acd66,
+     1px  1px 0 #9acd66,
+     0px  1px 0 #9acd66,
+     0px -1px 0 #9acd66,
+     1px  0px 0 #9acd66,
+    -1px  0px 0 #9acd66;
+}

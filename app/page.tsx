@@ -53,11 +53,11 @@ export default function HomePage() {
   }
 
   return (
-    <main className="max-w-4xl mx-auto px-4 py-12">
+    <main className="max-w-4xl mx-auto px-4 py-12 min-h-screen">
       <header className="flex items-center justify-center gap-3 mb-10">
         {LOGO_URL && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={LOGO_URL} alt={COMPANY} className="h-8" />
+          <img src={LOGO_URL} alt={COMPANY} className="h-36 sm:h-44 mb-6 opacity-90" />
         )}
         <span className="text-sm tracking-widest uppercase text-brand-light/60">
           {COMPANY} Brand Consistency Checker
@@ -66,15 +66,16 @@ export default function HomePage() {
 
       {!result && !loading && (
         <div className="text-center max-w-2xl mx-auto">
+	<div className="lvl7-referral-hero">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-            Is your brand telling the same story everywhere?
+            Is your brand's lightcode telling the same story everywhere? How far in space does your lightcode reach? What is lightcode?
           </h1>
           <p className="text-brand-light/70 mb-8">
-            Enter your company name and we&apos;ll pull your website, Google
+            Lightcode is your brand. Everything your brand embodies is light code to travel across the virtual space. Enter your company name and we&apos;ll pull your website lightcode, Google
             Business Profile, Facebook, and Instagram side by side -- and show
-            you exactly where they don&apos;t match. Takes under 60 seconds.
+            you exactly where they don&apos;t match. See how far you travel and check your light code NOW! Takes under 33 seconds!
           </p>
-
+         </div>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col sm:flex-row gap-3 justify-center"
